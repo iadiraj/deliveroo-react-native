@@ -20,6 +20,7 @@ import FeaturedRow from "../components/FeaturedRow";
 import { client } from "../sanity";
 
 const HomeScreen = () => {
+  // can use navigation by declaring and initializing it explicitly or it automatically pass so just declare argument in screen.
   const navigation = useNavigation();
   const inset = useSafeAreaInsets();
   const [featuredCategories, setFeaturedCategories] = useState();
