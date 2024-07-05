@@ -48,7 +48,6 @@ const HomeScreen = () => {
   }, []);
   return (
     <View style={{ paddingTop: inset.top }} className="bg-white">
-      {/* <View style={{ paddingTop: inset.top }}> */}
       {/* Header */}
       <View className="flex-row pb-3 items-center mx-4 space-x-2">
         <Image
